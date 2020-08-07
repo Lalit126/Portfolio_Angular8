@@ -15,13 +15,15 @@ import { ReferenceComponent } from './reference/reference.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { ProjectsComponent } from './projects/projects.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     // SnotifyModule,
-    NgxSpinnerModule
+   NgxSpinnerModule,
+   BrowserAnimationsModule
   ],
   declarations: [
     ProfileComponent,
