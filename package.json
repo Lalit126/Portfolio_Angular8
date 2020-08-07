@@ -2,13 +2,12 @@
   "name": "personal-portfoli-angular",
   "version": "0.0.0",
   "scripts": {
+    "start": "ng serve",
     "ng": "ng",
-    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -50,12 +49,6 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
-    "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
-  },
-
-  "engines": {
-    "node": "12.18.1",
-    "npm": "6.14.5"
+    "tslint": "~5.15.0"
   }
 }
