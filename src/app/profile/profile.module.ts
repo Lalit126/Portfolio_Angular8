@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { ProjectsComponent } from './projects/projects.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   imports: [
@@ -42,6 +43,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   providers: [
     // { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
     // SnotifyService,
-  ]
+  ],
+
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class ProfileModule { }
